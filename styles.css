@@ -27,14 +27,14 @@ header p {
 }
 
 /* Navigation Bar */
-/* nav {
+nav {
     background: #333;
     display: flex;
     justify-content: left;
     align-items: center;
 }
  */
-/* nav a {
+nav a {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -45,7 +45,7 @@ header p {
 nav a:hover {
     background: #4CAF50;
     color: white;
-} */
+}
 
 /* Style for the navigation bar */
 .navbar {
