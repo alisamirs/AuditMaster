@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 /* Style for the navigation bar */
-.navbar {
+/* .navbar {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -96,7 +96,7 @@ nav a:hover {
 /* Show dropdown on hover */
 .dropdown:hover .dropdown-list {
     display: block; /* Show dropdown */
-}
+} */
 
 
 /* Section Styling */
