@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple web page">
-    <meta name="author" content="Your Name">
+    <meta name="description" content="Introduction">
+    <meta name="author" content="Audit Master">
     <title>AuditMaster - Introduction</title>
 
     <!-- Link to external CSS -->
@@ -15,11 +15,38 @@
         <h1>Welcome to AuditMaster</h1>
         <p>Hello and welcome to AuditMaster! I'm happy to share my journey and expertise in the field of auditing with you. This platform is dedicated to providing valuable insights, practical tips, and real-world examples. My goal is to demystify the complexities of financial audits, compliance, and risk management, and share my knowledge with you.</p>
     </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a
-        <a href="#contact">Contact</a>
+    <!-- <nav class="header-nav">
+        <ul class="header-nav__list">
+            <li class="header-nav__list-item">
+                <a href="/index.html" class="header-nav__link">Home</a>
+            <li class="header-nav__list-item">
+                <a href="/about.html" class="header-nav__link">About</a>
+            <li class="header-nav__list-item">
+                <a href="/contact.html" class="header-nav__link">Contact</a>
+        </ul>
     </nav>
+ -->
+ <nav class="header-nav">
+    <ul class="header-nav__list">
+        <li class="header-nav__list-item">
+            <div class="header-nav__list-item">
+                <a href="home.html" class="header-nav__link">Home</a>
+                <ul class="header-nav__sublist">
+                  <li><a href="#">Stocks</a></li>
+                  <li><a href="#">ETFs</a></li>
+                  <!-- Add more list items here -->
+                </ul>
+              </div>
+        </li>
+        <li class="header-nav__list-item">
+            <a href="/tools" class="header-nav__link">Tools</a>
+        </li>
+        <li class="header-nav__list-item header-nav__list-item-about-us">
+            <a href="/about" class="header-nav__link">About</a>
+        </li>
+    </ul>
+</nav>
+</div>
     <main>
         <h2>About This Site</h2>
         <p>Your go-to resource for all things auditing. This platform is dedicated to sharing my knowledge, insights, and expertise in the field of auditing.</p>
