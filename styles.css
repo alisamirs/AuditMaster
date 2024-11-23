@@ -210,6 +210,13 @@ footer {
     }
 }
 
+@media (max-width: 40em) { /* Approximately 640px */
+    .header-nav {
+        display: block;
+        text-align: center;
+    }
+}
+
 
 
 /* Ensure the header__nav-panel is positioned relative to its parent */
@@ -221,13 +228,13 @@ footer {
 .header-nav__list-item:hover .header-nav__sublist {
     display: block;
 }
-.nav-toggle:checked + .header-nav__list {
+/* .nav-toggle:checked + .header-nav__list {
   display: block;
 }
 
 .nav-toggle:checked + .header-nav__list .header-nav__list-item {
   display: block;
-}
+} */
 /* Navigation Panel Styles */
 
 .header__nav-panel {
