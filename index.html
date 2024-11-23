@@ -7,13 +7,27 @@
     <meta name="author" content="Audit Master">
     <title>AuditMaster - Introduction</title>
 
+    <!-- Link to external JS -->
+    <script src="script.js"></script>
     <!-- Link to external CSS -->
         <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Welcome to AuditMaster</h1>
-        <p>Hello and welcome to AuditMaster! I'm happy to share my journey and expertise in the field of auditing with you. This platform is dedicated to providing valuable insights, practical tips, and real-world examples. My goal is to demystify the complexities of financial audits, compliance, and risk management, and share my knowledge with you.</p>
+        <p id="test-paragraph"></p>
+
+        <script>
+            fetch("TEXT/text.txt")
+                .then(response => response.text())
+                .then(text => {
+                    document.getElementById('test-paragraph').innerText = text;
+                })
+                .catch(error => {
+                    console.error('Error fetching text:', error);
+                });
+        </script>
+
     </header>
     <!-- <nav class="header-nav">
         <ul class="header-nav__list">
