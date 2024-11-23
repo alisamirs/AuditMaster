@@ -2,7 +2,7 @@
 
 
 /*Add more content to make it scrollable*/
-const scrollableText = document.getElementById('scrollable-text');
+/*const scrollableText = document.getElementById('scrollable-text');
 let startY;
 
 scrollableText.addEventListener('touchstart', (e) => {
@@ -13,7 +13,7 @@ scrollableText.addEventListener('touchmove', (e) => {
     const deltaY = e.touches[0].clientY - startY;
     scrollableText.scrollTop += deltaY;
 });
-
+*/
 /* document.getElementById('fileInput').addEventListener('change', function(event) {
     const file = event.target.files[0];
 
