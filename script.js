@@ -1,5 +1,20 @@
 // script.js
-document.getElementById('fileInput').addEventListener('change', function(event) {
+
+
+/*Add more content to make it scrollable*/
+const scrollableText = document.getElementById('scrollable-text');
+let startY;
+
+scrollableText.addEventListener('touchstart', (e) => {
+    startY = e.touches[0].clientY;
+});
+
+scrollableText.addEventListener('touchmove', (e) => {
+    const deltaY = e.touches[0].clientY - startY;
+    scrollableText.scrollTop += deltaY;
+});
+
+/* document.getElementById('fileInput').addEventListener('change', function(event) {
     const file = event.target.files[0];
 
     if (file) {
@@ -17,7 +32,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
         alert("Please select a file."); 
     }
 });
-// document.addEventListener("DOMContentLoaded", () => {
+ */// document.addEventListener("DOMContentLoaded", () => {
 //     const dropdown = document.querySelector(".dropdown");
 //     const dropdownList = document.querySelector(".dropdown-list");
 
