@@ -17,18 +17,6 @@
         <h1>Welcome to AuditMaster</h1>        
     </header>
     
-    <p id="test-paragraph", class="indented-paragraph"></p>
-
-        <script>
-            fetch("TEXT/text.txt")
-                .then(response => response.text())
-                .then(text => {
-                    document.getElementById('test-paragraph').innerText = text;
-                })
-                .catch(error => {
-                    console.error('Error fetching text:', error);
-                });
-        </script>
     <!-- <nav class="header-nav">
         <ul class="header-nav__list">
             <li class="header-nav__list-item">
@@ -60,6 +48,19 @@
         </li>
     </ul>
 </nav>
+
+<p id="test-paragraph", class="indented-paragraph"></p>
+
+<script>
+    fetch("TEXT/text.txt")
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('test-paragraph').innerText = text;
+        })
+        .catch(error => {
+            console.error('Error fetching text:', error);
+        });
+</script>
 
     <main>
         <h2>About This Site</h2>
