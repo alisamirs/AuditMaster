@@ -1,3 +1,6 @@
+/* indented-paragraph */
+.indented-paragraph { padding-left: 20px; /* Adjust the value as needed */ }
+
 /* Global Styles */
 body {
     margin: 0;
@@ -216,8 +219,6 @@ footer {
         text-align: center;
     }
 }
-
-
 
 /* Ensure the header__nav-panel is positioned relative to its parent */
 .header {
