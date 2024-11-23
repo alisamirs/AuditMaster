@@ -235,6 +235,13 @@ footer {
     background-color: #4CAF50; /* White background */
 }
 
+/* Hide the nav panel by default on smaller screens */
+@media (max-width: 768px) {
+    .header-nav__list {
+      display: none;
+    }
+  }
+  
 .header-nav__list-item {
     position: relative;
   }
@@ -244,6 +251,7 @@ footer {
         max-width: 25rem; /* Restrict maximum width on larger screens */
     }
 }
+
 
 
 .header-nav__sublist {
