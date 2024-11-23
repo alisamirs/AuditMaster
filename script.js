@@ -1,6 +1,5 @@
 // script.js
 
-
 /*Add more content to make it scrollable*/
 /*const scrollableText = document.getElementById('scrollable-text');
 let startY;
