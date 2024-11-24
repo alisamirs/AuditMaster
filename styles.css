@@ -92,9 +92,9 @@ section ul li a:hover {
 /*main*/
 main {
     margin: 0;
-    margin-bottom: 60px; /* Add this line */
+    margin-bottom: 60px; 
     line-height: 1.6;
-    padding: 20px;
+    padding-left: 20px;
     text-align: left;
 }
 
