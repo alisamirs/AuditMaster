@@ -3,6 +3,5 @@ numpy
 plotly
 sklearn
 matplotlib
-nbformat
 openpyxl
 requests>=2.25.0
