@@ -60,3 +60,5 @@ Launching jupyter-lab
 [I 2025-03-14 19:12:56.144 ServerApp] Saving file at /EALB ECL.ipynb
 [I 2025-03-14 19:13:06.549 ServerApp] Saving file at /EALB ECL.ipynb
 [I 2025-03-14 19:14:24.154 ServerApp] New terminal with automatic name: 2
+[W 2025-03-14 19:22:08.218 ServerApp] Culling 'idle' kernel 'python3' (49e83042-3c80-46cb-92db-1bed2a1ce415) with 1 connections due to 652 seconds of inactivity.
+[I 2025-03-14 19:22:08.219 ServerApp] Kernel shutdown: 49e83042-3c80-46cb-92db-1bed2a1ce415
