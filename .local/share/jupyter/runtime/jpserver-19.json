@@ -1,5 +1,5 @@
 {
-  "base_url": "/user/alisamirs-auditmaster-owpy9jyn/",
+  "base_url": "/user/alisamirs-auditmaster-0t31g28e/",
   "hostname": "0.0.0.0",
   "password": false,
   "pid": 19,
@@ -7,7 +7,7 @@
   "root_dir": "/home/jovyan",
   "secure": false,
   "sock": "",
-  "token": "0h_31fJQSnW9giV19ukXUw",
-  "url": "http://jupyter-alisamirs-auditmaster-owpy9jyn:8888/user/alisamirs-auditmaster-owpy9jyn/",
+  "token": "urfxHNIvRyeYY3YDPA-LDw",
+  "url": "http://jupyter-alisamirs-auditmaster-0t31g28e:8888/user/alisamirs-auditmaster-0t31g28e/",
   "version": "2.15.0"
 }
