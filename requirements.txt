@@ -1,0 +1,6 @@
+pandas
+plotly
+scikit-learn
+matplotlib
+openpyxl
+requests>=2.25.0
