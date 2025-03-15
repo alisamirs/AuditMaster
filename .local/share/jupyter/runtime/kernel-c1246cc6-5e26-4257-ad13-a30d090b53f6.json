@@ -1,0 +1,13 @@
+{
+  "shell_port": 33619,
+  "iopub_port": 38023,
+  "stdin_port": 60883,
+  "control_port": 51015,
+  "hb_port": 52577,
+  "ip": "127.0.0.1",
+  "key": "aa45ea3e-dffb1e9f14211207e8b18642",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jovyan/EALB ECL.ipynb"
+}

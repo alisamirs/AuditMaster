@@ -1,0 +1,13 @@
+{
+  "base_url": "/user/alisamirs-auditmaster-owpy9jyn/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 19,
+  "port": 8888,
+  "root_dir": "/home/jovyan",
+  "secure": false,
+  "sock": "",
+  "token": "0h_31fJQSnW9giV19ukXUw",
+  "url": "http://jupyter-alisamirs-auditmaster-owpy9jyn:8888/user/alisamirs-auditmaster-owpy9jyn/",
+  "version": "2.15.0"
+}
